@@ -18,7 +18,7 @@ import java.util.List;
 public class Story {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    Long id;
+    Long story_id;
 
     @Column(name = "story_text")
     private String storyText;
